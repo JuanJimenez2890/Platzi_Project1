@@ -1,7 +1,7 @@
 from functools import reduce
 
 lista = [2,4,5,6,8,21,144,29,79,2,15454]
-lista2 = [2,2,2]
+lista2 = [2,2,2,2]
 
 pares = list(filter(lambda x: x % 2 == 0, lista))
 print(pares)
