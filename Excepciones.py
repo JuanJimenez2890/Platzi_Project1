@@ -10,7 +10,7 @@ def run():
     while True:
         
         try:
-            num = int(input('Ingresa un número1gfgfg: '))
+            num = int(input('Ingresa un número: '))
             if num <0:
                 raise ValueError
                 
